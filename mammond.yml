@@ -207,12 +207,12 @@ metadata:
   limit: 20
 
   # whitelist - if defined, a list of lowercase keys that are checked when users set data
-  whitelist:
-    - avatar
-    - info
-    - source
-    - url
-    - version
+  #whitelist:
+  #  - avatar
+  #  - info
+  #  - source
+  #  - url
+  #  - version
 
   # restricted_keys - keys that unprived users cannot see / edit, and require a
   #   special entry in a ROLE to see / edit

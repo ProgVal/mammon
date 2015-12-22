@@ -149,7 +149,7 @@ class ClientProtocol(asyncio.Protocol):
 
         if isinstance(target, Channel):
             # XXX - hook up channel ACL when we have that
-            return False
+            return True
 
     def connection_lost(self, exc):
         """Handle loss of connection if it was already not handled.
